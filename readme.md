@@ -33,7 +33,7 @@ Add the exportHR function to your main js file and pass an object with the follo
 - scren (THREE.scene)
 
 
-### example
+### Example
 ```javascript
 exportHR({
     canvasSize: [window.innerWidth, window.innerHeight],
@@ -52,7 +52,7 @@ exportHR({
 
 Add the exported images to "stitch/src". Make sure there are no other images in this folder. In order to stitch the images we need to calulate the square root of the total of exported images and pass this number with the -r argument to the python script. 
 
-### example for 9 images
+### Example for 9 images
 ```python
 python3 stitch.py -r 3
 ```
