@@ -1,0 +1,28 @@
+{
+  "name": "three.js-hr-export",
+  "description": "This is a minimal high resolution image export script that is easy to implement in a existing three.js sketch. Instead of rendering the high resolution image directly in the browser, this script exports a set of tiles that can be stitched together in a program like photoshop or using a simple python script. This approach has no limits in export size.",
+  "version": "0.0.1",
+  "type": "module",
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "three.js",
+    "export",
+    "highres",
+    "high resolution",
+    "image export",
+    "tiles",
+    "tileset",
+    "stitching"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MatsCornegoor/three.js-hr-export.git"
+  },
+  "dependencies": {
+    "three": "^0.150.1"
+  },
+  "author": "Mats Cornegoor",
+  "license": "MIT"
+}
